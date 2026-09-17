@@ -10,7 +10,7 @@ Los datos utilizados en este proyecto fueron obtenidos a través de **scikit-lea
 *   **Manipulación de datos:** NumPy
 *   **Visualización:** Matplotlib
 *   **Modelado:** Tensorflow Keras
-*   **Entorno:** [Jupyter Notebook / Google Colab]
+*   **Entorno:** Google Colab
 
 ## Metodología
 1. **Preprocesamiento:** Normalización y manejo de la matriz de datos 
