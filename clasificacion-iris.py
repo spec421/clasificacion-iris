@@ -8,7 +8,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay
 import tensorflow as tf
 from tensorflow.keras import layers, models, callbacks
-import pandas as pd
 
 # 1. Cargar datos
 iris = load_iris()
@@ -46,8 +45,7 @@ model.compile(
     metrics=['accuracy']
 )
 
-# 5. Entrenamiento con Early Stopping
-#es = callbacks.EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
+# 5. Entrenamiento
 history = model.fit(
     X_train, y_train,
     validation_split=0.2,
