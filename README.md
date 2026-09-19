@@ -18,7 +18,7 @@ Los datos utilizados en este proyecto fueron obtenidos a través de **scikit-lea
 3. **Visualización** Uso de matplotlib para la generación de gráficas relacionadas con las métricas de validación y un plano cartesiano donde se muestran la clasificación visual de las flores, además se incluye una matriz de confusión.
 
 ## Resultados Principales
-* Se logró una precisión (accuracy) del 97%
+* Se logró una precisión (accuracy) del 97%, además de una validación mediante el uso de una matriz de confusión y la visualización de fronteras de decisión en un plano bidimensional.
 
 ## Cómo ejecutar el proyecto
 1. Clona este repositorio:
